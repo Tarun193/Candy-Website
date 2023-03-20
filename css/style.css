@@ -54,6 +54,8 @@ header ul a {
   text-decoration: none;
   color: white;
   font-size: 120%;
+  display: block;
+  transition: all 0.5s;
 }
 
 /* Hero section styles */
@@ -214,7 +216,8 @@ footer img {
   transition: all 0.5s;
 }
 
-.nav-form a:hover {
+.nav-form a:hover,
+header ul a:hover {
   color: rgba(255, 255, 255, 0.685);
   transform: scale(1.2);
 }

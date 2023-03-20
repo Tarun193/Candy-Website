@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tarun and Jasmeet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This is the title of the document, which appears in the browser's title bar -->
+    <title>Lindt Candy</title>
+
+    <!-- This links to an external stylesheet for the document's styling -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- This is the header section of the document, which contains a title and navigation-->
+    <header>
+      <h1>Lindt</h1>
+      <!-- This is the navigation menu for the page -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- This is the main content of the page -->
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <!-- Putting heading as a section requires an heading. But I don't want it to show to users -->
+        <h2 class="hidden">Hero Section</h2>
+        <section class="hero-content">
+          <!-- Putting heading as a section requires an heading. But I don't want it to show to users -->
+          <h2 class="hidden">Hero Content</h2>
+          <h2>Indulge in the Finest Swiss Chocolate</h2>
+          <p>
+            Discover the rich, smooth taste of Lindt chocolate, crafted with
+            passion and precision by our Maîtres Chocolatiers. From classic milk
+            chocolate to our signature truffles, there's something for every
+            chocolate lover.
+          </p>
+          <a href="#" class="btn">Shop Now</a>
+        </section>
+        <section class="hero-image">
+          <!-- Putting heading as a section requires an heading. But I don't want it to show to users -->
+          <h2 class="hidden">Hero Image</h2>
+          <img
+            src="images/shop-img.png"
+            alt="Lindt Chocolate"
+            width="1024"
+            height="1024"
+          />
+        </section>
+      </section>
+      <!-- About section -->
+      <section id="About" class="about">
+        <h2>About</h2>
+        <section class="about-content">
+          <!-- Putting heading as a section requires an heading. But I don't want it to show to users -->
+          <h2 class="hidden">About Content</h2>
+          <p class="about-text">
+            At Lindt, we believe that chocolate should be an experience to be
+            savored and enjoyed. That's why we've been creating the world's
+            finest Swiss chocolate since 1845. Our Maîtres Chocolatiers are
+            passionate about crafting chocolate of exceptional quality and
+            incomparable taste. From our signature truffles to our classic milk
+            chocolate bars, each piece of Lindt chocolate is made with the
+            finest ingredients, including premium cocoa beans sourced from
+            around the world. We're proud to carry on the tradition of Swiss
+            chocolate-making and to share our passion for chocolate with the
+            world. Whether you're a longtime fan or discovering our chocolate
+            for the first time, we invite you to indulge in the smooth, rich
+            taste of Lindt chocolate.
+          </p>
+
+          <img
+            class="about-image"
+            src="images/multi-images.png"
+            alt="Candy image"
+            width="400"
+            height="400"
+          />
+        </section>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="backend" autocomplete="off">
+          <fieldset>
+            <legend class="hidden">Contact Info</legend>
+            <p>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </p>
+            <p>
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="Enter you email" />
+            </p>
+            <p>
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer of the page -->
+    <footer>
+      <small> &copy; Lindt 2023 </small>
+    </footer>
+  </body>
+</html>

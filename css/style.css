@@ -180,9 +180,50 @@ textarea {
 footer {
   text-align: center;
   padding: 0.75rem 0.5rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
   color: #fff;
-  background-color: black;
+  border-top: 1px solid white;
+  box-shadow: 0px -0.3px 3px rgb(255, 244, 244);
+  margin-top: 1rem;
+  /* background-color: black; */
+}
+footer img {
+  width: 200px;
+  height: auto;
+}
+
+.nav-form {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.nav-form ul {
+  list-style: none;
+}
+.nav-form a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: all 0.5s;
+}
+
+.nav-form a:hover {
+  color: rgba(255, 255, 255, 0.685);
+  transform: scale(1.2);
+}
+
+.nav-form input {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+  border: 0;
+  border-radius: 0.3rem;
 }
 
 /* Utlity Classes */

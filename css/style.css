@@ -229,6 +229,14 @@ header ul a:hover {
   border-radius: 0.3rem;
 }
 
+.footer-log {
+  opacity: 50%;
+}
+
+.footer-log:hover {
+  opacity: 100%;
+}
+
 /* Utlity Classes */
 .hidden {
   position: absolute;
